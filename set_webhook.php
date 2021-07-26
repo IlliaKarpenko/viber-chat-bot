@@ -1,5 +1,5 @@
 <?php
-	$auth_token = '4d61b35f2767d21b-763464c55290f8ab-828ca01daeeef9c8';
+	$auth_token = '*********';
 	$webhook = 'https:// spfk-viberbot.github.com/';
 	
 	$jsonData = 
