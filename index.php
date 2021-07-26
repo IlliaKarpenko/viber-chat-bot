@@ -1,6 +1,6 @@
 <?php
 
-$auth_token = "4d61b35f2767d21b-763464c55290f8ab-828ca01daeeef9c8";
+$auth_token = "*********";
 $send_name = "Бот СПФК ЦНТУ";
 $is_log = true;
 
@@ -9,9 +9,9 @@ global $username;
 global $password;
 global $dbname;
 
-$servername = "remotemysql.com";
-$username = "qGVI1BzGNZ";
-$password = "SNo79VAWUF";
+$servername = "*********";
+$username = "*********";
+$password = "*********";
 $dbname = $username;
 
 file_put_contents("viber.txt", file_get_contents("php://input"));
@@ -34,7 +34,7 @@ function send($message)
 		CURLOPT_HTTPHEADER => array(
 			"Cache-Control: no-cache",
 			"Content-Type: application/JSON",
-			"X-Viber-Auth-Token: 4d61b35f2767d21b-763464c55290f8ab-828ca01daeeef9c8"
+			"X-Viber-Auth-Token: *********"
 		),
 	));
 
